@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta name = "viewport" content = "with=device-width, initial scale = 1.0">
-        <title>Spectra</title>
+        <title>JimmyTron</title>
         <link rel = "stylesheet" href = style.css>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,7 +9,7 @@
     </head>
 <body>
     <!--Dont Mess with this stuff-->
-    <div class = "banner11">
+    <div class = "banner11f">
         <div class = "navbar">
         <a href = "home.html"><img src="logo1.png"></a>
         <ul>
@@ -18,9 +18,10 @@
             <li><a href = "About.html">ABOUT</a></li>
             <li><a href = "Solution.html">OUR SOLUTIONS</a></li>
             <li><a href = "Contact.html">CONTACT US</a></li>
+                        <li><a href = "Stats.html">STATS</a></li>
         </ul>
         </div>
-        <div class = "content1"><div class = "mobile"><center><h1>About Us</h1></center></div></div>
+        <div class = "content1"><div class = "mobile"><center><h1>Mission 2</h1></center></div></div>
        <p></p>
         
         <center>
@@ -33,22 +34,23 @@
             
             
             
-            <p>StellarClear specializes in pioneering satellite technologies and innovative strategies to combat the growing menace of orbital debris. Through our state-of-the-art satellite deployment systems, we launch and operate a fleet of specialized spacecraft designed to actively remove space debris from Earth's orbit.</p>
-<br>
+            <p>Mission 2 required us to use our satellite to receive a message from a space craft</p>
             <br>
-            <p>Our comprehensive approach includes the deployment of highly maneuverable satellites equipped with advanced tracking and capture systems. These satellites work tirelessly to identify and intercept hazardous space debris, ranging from defunct satellites to spent rocket stages and smaller fragments.</p>
-<br>
             <br>
-            <p>Once targeted, our satellites utilize cutting-edge robotic arms and capture mechanisms to securely grasp and stabilize the debris. Employing advanced propulsion systems, we safely guide the captured objects towards Earth's atmosphere, ensuring their controlled reentry and subsequent incineration, thus eliminating the risk of collision with active satellites.</p>
-<br>
+            <p>We looped through each radio channel and if the channel received anything then the screen would light up in a hearts display </p>
             <br>
-            <p>To maximize efficiency, we leverage artificial intelligence algorithms and machine learning techniques to optimize debris detection, tracking, and capture processes. Through continuous research and development, we remain at the forefront of technological advancements, ensuring that our satellite systems are equipped to tackle the evolving challenges of space debris mitigation.</p>
-<br>
             <br>
-            <p>Collaboration is a key pillar of our approach. We actively engage with international space agencies, commercial entities, and research organizations to foster a global network dedicated to space sustainability. By forging strategic partnerships, we pool resources, share knowledge, and work together towards our common goal of a debris-free orbital environment.</p>
-<br>
+            <p>From there, once we knew the radio channel we reprogrammed the satellite to read the message that it sent. JEJAXUPDENPU</p>
             <br>
-            <p>At StellarClear, we are committed to ensuring the long-term viability of space activities. By actively removing space debris, we create safer orbits for existing and future satellites, enabling space exploration, communication, and scientific endeavors to thrive. Our efforts are driven by a deep sense of responsibility towards the preservation of our planet and the boundless possibilities that lie beyond its atmosphere.</p>
+            <br>
+            <p>We can rule out any keyword ciphers to decrypt the message based on the face there was no key. The most likely option we could think of was a simple Caesar cipher. This is because if you analyse the frequency of the letters we can deduce that J and J come from the same plaintext letter. Therefore we can rule out many of the uncommon letters like {Q,W,Y,H,J(through the rarity of if),K,X,}.From there we brute forced the decryption</p>
+            <br>
+            <br>
+            <p>We set up two for loops to iterate through the string, first we set up a for loop that iterates 25 times(number of possible combinations), from there we set up another for loop this time the length of the string received. It iterated through each plaintext letter and applied a shift of value k to give the codedletter. The value of k was part of the first for loop. To make sure that the program looped through the alphabet and didn't run off past the alphabet, we converted each letter to its ASCII equivalent by taking its place in the alphabet {i.e. A is 1} and then adding 64 to it{A becomes 65}. Then if the shift meant the value was over Z's value {90} we simply minused 25.</p>
+            <br>
+            <br>
+            <p>This then gave us the decoded message of NINEBYTHIRTY which we used the Egyptian base 10 system to times 9 by 30 to give 270. We transmitted this back to them big box and watched as it became a tick</p>
+            <video width="320" height="240" autoplay muted controls loop><source src = "Mission2Video.mp4" type = "video/mp4"></video>
 
             
        
@@ -56,84 +58,7 @@
     </div>
      </center>
     </div>
-<!--
-<div class = "content3"><div class = "mobile"><center><h1>Meet Our Directors</h1></center></div></div>
-        <br>
-        <br>
-<div class = "t"><div class="board-container">
-  <div class="textbox11">
-    <ul class="first-row">
-      <li class="director">
-        <img src="MD.jpg" alt="Director 1">
-        <p>Managing</p>
-          <p> Director</p>
-      </li>
-      <li class="director">
-        
-        <img src="IT.jpg" alt="Director 2">
 
-          <p>Technology Director</p>
-
-      </li>
-     <li class="director">
-        <img src="sec.jpeg" alt="Director 3">
-         
-          <p>Company </p>
-         
-          <p>Secretary</p>
-      </li>
-    
-    
-      <li class="director">
-        <img src="finance.jpeg" alt="Director 4">
-        <p>Finance </p>
-        <p> Director</p>
-      </li>
-        
-      <li class="director">
-        <img src="marketing.jpeg" alt="Director 5">
-        <p>Marketing </p>
-        <p> Director</p>
-      </li>
-        </ul>
-      <ul class="second-row">
-     <li class="director">
-        <img src="sale.jpeg" alt="Director 6">
-        <p>Sales </p>
-          <p> Director</p>
-      </li>
-    
-       <li class="director">
-        <img src="HR.jpeg" alt="Director 7">
-        <p>HR </p>
-          <p> Director</p>
-      </li>
-      <li class="director">
-        <img src="sust.jpeg" alt="Director 8">
-        <p>Sustainability </p>
-          <p> Director</p>
-      </li>
-      <li class="director">
-        <img src="op.jpeg" alt="Director 9">
-        <p>Operations </p>
-          <p> Director</p>
-      </li>
-        <li class="director">
-        <img src="client.jpg" alt="Director 10">
-        <p>Client Relations </p>
-
-      </li>
-    </ul>
-  </div>
-</div></div>
-
-
-
-
-        
-        
-    </div>
-    -->
     
    
 
