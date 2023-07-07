@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <meta name = "viewport" content = "with=device-width, initial scale = 1.0">
+        <title>JimmyTron</title>
+        <link rel = "stylesheet" href = style.css>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <!--Dont Mess with this stuff-->
+    <div class = "banner11f">
+        <div class = "navbar">
+        <a href = "home.html"><img src="logo1.png"></a>
+        <ul>
+           <li><a href = "index.html">HOME</a></li>
+            <li><a href = "Product.html">PRODUCT</a></li>
+            <li><a href = "About.html">ABOUT</a></li>
+            <li><a href = "Solution.html">OUR SOLUTIONS</a></li>
+            <li><a href = "Contact.html">CONTACT US</a></li>
+                        <li><a href = "Stats.html">STATS</a></li>
+        </ul>
+        </div>
+        <div class = "content1"><div class = "mobile"><center><h1>Mission 2</h1></center></div></div>
+       <p></p>
+        
+        <center>
+        <div class = "centre">
+        <div class = "textbox1">
+        
+       
+            
+            
+            
+            
+            
+            <p>Mission 2 required us to use our satellite to receive a message from a space craft</p>
+            <br>
+            <br>
+            <p>We looped through each radio channel and if the channel received anything then the screen would light up in a hearts display </p>
+            <br>
+            <br>
+            <p>From there, once we knew the radio channel we reprogrammed the satellite to read the message that it sent. JEJAXUPDENPU</p>
+            <br>
+            <br>
+            <p>We can rule out any keyword ciphers to decrypt the message based on the face there was no key. The most likely option we could think of was a simple Caesar cipher. This is because if you analyse the frequency of the letters we can deduce that J and J come from the same plaintext letter. Therefore we can rule out many of the uncommon letters like {Q,W,Y,H,J(through the rarity of if),K,X,}.From there we brute forced the decryption</p>
+            <br>
+            <br>
+            <p>We set up two for loops to iterate through the string, first we set up a for loop that iterates 25 times(number of possible combinations), from there we set up another for loop this time the length of the string received. It iterated through each plaintext letter and applied a shift of value k to give the codedletter. The value of k was part of the first for loop. To make sure that the program looped through the alphabet and didn't run off past the alphabet, we converted each letter to its ASCII equivalent by taking its place in the alphabet {i.e. A is 1} and then adding 64 to it{A becomes 65}. Then if the shift meant the value was over Z's value {90} we simply minused 25.</p>
+            <br>
+            <br>
+            <p>This then gave us the decoded message of NINEBYTHIRTY which we used the Egyptian base 10 system to times 9 by 30 to give 270. We transmitted this back to them big box and watched as it became a tick</p>
+            <video width="320" height="240" autoplay muted controls loop><source src = "Mission2Video.mp4" type = "video/mp4"></video>
+
+            
+       
+    </div>
+    </div>
+     </center>
+    </div>
+
+    
+   
+
+    
+    
+    
+    <!--Edit from here onwards-->
+    
+    
+    
+    
+    
+<div class = "footer"><a href = "t%20and%20C.html"><h4>Terms and Conditions</h4></a></div>
+</body>
+</html>

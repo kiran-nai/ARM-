@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <meta name = "viewport" content = "with=device-width, initial scale = 1.0">
+        <title>Spectra</title>
+        <link rel = "stylesheet" href = style.css>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <!--Dont Mess with this stuff-->
+    <div class = "banner11">
+        <div class = "navbar">
+        <a href = "home.html"><img src="logo1.png"></a>
+        <ul>
+           <li><a href = "index.html">HOME</a></li>
+            <li><a href = "Product.html">PRODUCT</a></li>
+            <li><a href = "About.html">ABOUT</a></li>
+            <li><a href = "Solution.html">OUR SOLUTIONS</a></li>
+            <li><a href = "Contact.html">CONTACT US</a></li>
+        </ul>
+        </div>
+        <div class = "content1"><div class = "mobile"><center><h1>About Us</h1></center></div></div>
+       <p></p>
+        
+        <center>
+        <div class = "centre">
+        <div class = "textbox1">
+        
+       
+            
+            
+            
+            
+            
+            <p>StellarClear specializes in pioneering satellite technologies and innovative strategies to combat the growing menace of orbital debris. Through our state-of-the-art satellite deployment systems, we launch and operate a fleet of specialized spacecraft designed to actively remove space debris from Earth's orbit.</p>
+<br>
+            <br>
+            <p>Our comprehensive approach includes the deployment of highly maneuverable satellites equipped with advanced tracking and capture systems. These satellites work tirelessly to identify and intercept hazardous space debris, ranging from defunct satellites to spent rocket stages and smaller fragments.</p>
+<br>
+            <br>
+            <p>Once targeted, our satellites utilize cutting-edge robotic arms and capture mechanisms to securely grasp and stabilize the debris. Employing advanced propulsion systems, we safely guide the captured objects towards Earth's atmosphere, ensuring their controlled reentry and subsequent incineration, thus eliminating the risk of collision with active satellites.</p>
+<br>
+            <br>
+            <p>To maximize efficiency, we leverage artificial intelligence algorithms and machine learning techniques to optimize debris detection, tracking, and capture processes. Through continuous research and development, we remain at the forefront of technological advancements, ensuring that our satellite systems are equipped to tackle the evolving challenges of space debris mitigation.</p>
+<br>
+            <br>
+            <p>Collaboration is a key pillar of our approach. We actively engage with international space agencies, commercial entities, and research organizations to foster a global network dedicated to space sustainability. By forging strategic partnerships, we pool resources, share knowledge, and work together towards our common goal of a debris-free orbital environment.</p>
+<br>
+            <br>
+            <p>At StellarClear, we are committed to ensuring the long-term viability of space activities. By actively removing space debris, we create safer orbits for existing and future satellites, enabling space exploration, communication, and scientific endeavors to thrive. Our efforts are driven by a deep sense of responsibility towards the preservation of our planet and the boundless possibilities that lie beyond its atmosphere.</p>
+
+            
+       
+    </div>
+    </div>
+     </center>
+    </div>
+<!--
+<div class = "content3"><div class = "mobile"><center><h1>Meet Our Directors</h1></center></div></div>
+        <br>
+        <br>
+<div class = "t"><div class="board-container">
+  <div class="textbox11">
+    <ul class="first-row">
+      <li class="director">
+        <img src="MD.jpg" alt="Director 1">
+        <p>Managing</p>
+          <p> Director</p>
+      </li>
+      <li class="director">
+        
+        <img src="IT.jpg" alt="Director 2">
+
+          <p>Technology Director</p>
+
+      </li>
+     <li class="director">
+        <img src="sec.jpeg" alt="Director 3">
+         
+          <p>Company </p>
+         
+          <p>Secretary</p>
+      </li>
+    
+    
+      <li class="director">
+        <img src="finance.jpeg" alt="Director 4">
+        <p>Finance </p>
+        <p> Director</p>
+      </li>
+        
+      <li class="director">
+        <img src="marketing.jpeg" alt="Director 5">
+        <p>Marketing </p>
+        <p> Director</p>
+      </li>
+        </ul>
+      <ul class="second-row">
+     <li class="director">
+        <img src="sale.jpeg" alt="Director 6">
+        <p>Sales </p>
+          <p> Director</p>
+      </li>
+    
+       <li class="director">
+        <img src="HR.jpeg" alt="Director 7">
+        <p>HR </p>
+          <p> Director</p>
+      </li>
+      <li class="director">
+        <img src="sust.jpeg" alt="Director 8">
+        <p>Sustainability </p>
+          <p> Director</p>
+      </li>
+      <li class="director">
+        <img src="op.jpeg" alt="Director 9">
+        <p>Operations </p>
+          <p> Director</p>
+      </li>
+        <li class="director">
+        <img src="client.jpg" alt="Director 10">
+        <p>Client Relations </p>
+
+      </li>
+    </ul>
+  </div>
+</div></div>
+
+
+
+
+        
+        
+    </div>
+    -->
+    
+   
+
+    
+    
+    
+    <!--Edit from here onwards-->
+    
+    
+    
+    
+    
+<div class = "footer"><a href = "t%20and%20C.html"><h4>Terms and Conditions</h4></a></div>
+</body>
+</html>
